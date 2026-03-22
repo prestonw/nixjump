@@ -16,7 +16,7 @@ You need a Tailscale OAuth key before you start. Go to your Tailscale settings a
 
 Log into your target server as root and run the install script.
 
-curl -L https://raw.githubusercontent.com/user/repo/main/install.sh | bash
+curl -L https://raw.githubusercontent.com/prestonw/nixjump/main/install.sh | bash
 
 The script will ask you to paste your Tailscale key. After you provide the key, the script will start the disk wipe and installation. Your SSH connection will drop because the server is being reformatted. Wait about two minutes for the server to reboot and show up in your Tailscale dashboard.
 
